@@ -42,7 +42,7 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit() {
-    this.selectedCity = 'London';
+    this.selectedCity = 'Sydney';
     this.getByCity();
   }
 
