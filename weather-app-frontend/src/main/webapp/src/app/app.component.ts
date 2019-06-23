@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
 
   selectedCity: string;
 
-  listOfCities: City[] = [{ name: 'London'}, {name: 'Argentina'}, {name: 'Manila'}];  
+  listOfCities: City[] = [{ name: 'Sydney'}, {name: 'Melbourne'}, {name: 'Wollongong'}];  
 
   constructor(private monitorWeatherService: MonitorWeatherService) {}
 
