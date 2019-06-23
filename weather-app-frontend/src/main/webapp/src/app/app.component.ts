@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
 
   selectedCity: string;
 
-  listOfCities: City[] = [{ name: 'London'}, {name: 'Argentina'}, {name: 'Manila'}];  
+  listOfCities: City[] = [{ name: 'Sydney'}, {name: 'Melbourne'}, {name: 'Wollongong'}];  
 
   constructor(private monitorWeatherService: MonitorWeatherService) {}
 
@@ -42,7 +42,7 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit() {
-    this.selectedCity = 'London';
+    this.selectedCity = 'Sydney';
     this.getByCity();
   }
 
