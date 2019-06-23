@@ -15,16 +15,16 @@
       <td>{{monitorWeather.name}}</td>
     </tr>
     <tr>
-      <td>Temperature</td>
-      <td>{{monitorWeather.main.temp}}</td>
+      <td>Weather</td>
+      <td>{{monitorWeather.weather[0].description}}</td>
     </tr>
     <tr>
-        <td>Weather</td>
-        <td>{{monitorWeather.weather[0].description}}</td>
-      </tr>
-      <tr>
-          <td>Wind</td>
-          <td>{{monitorWeather.wind.speed}}</td>
-        </tr>
-    </table>
+      <td>Temperature</td>
+      <td>{{monitorWeather.main.temp}}</td>
+    </tr>   
+    <tr>
+      <td>Wind</td>
+      <td>{{monitorWeather.wind.speed}}</td>
+    </tr>
+  </table>
 
