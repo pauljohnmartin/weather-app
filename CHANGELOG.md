@@ -22,4 +22,8 @@
 4. Programmed service to communicate in the backend API.
 5. Programmed component to subscribe from service and to rendered data in html.
 
+**Modifications**
+1. Modified app component html to corrected the order of data.
+2. Modified app component controller to update the list of cities and set the sydney to default.
+
 
