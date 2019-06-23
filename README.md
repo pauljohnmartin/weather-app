@@ -1,4 +1,9 @@
 # Weather-App
+
+## About the application
+
+This weather application is to determine the weather condition in the three(3) cities of Australia (Sydney, Melbourne and Wollongong), I used the API (api.openweathermap.org) thanks to this weather API to achieved this application and also I used the Spring Boot, REST, Angular6 and Angular Material.
+
 ## Guidelines
 
 1. Clone this repository.
